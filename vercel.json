@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "builds": [{ "src": "starexx.py", "use": "@vercel/python" }],
+  "routes": [{ "src": "/.*", "dest": "starexx.py" }]
+}
